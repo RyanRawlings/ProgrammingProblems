@@ -3,6 +3,9 @@
 #   URL: https://codingbat.com/prob/p113659
 #   Date: 12/06/2021
 #   Description: 
-#     - Given an array of ints, return True if the array is length 1 
-#       or more, and the first element and the last element are equal.
+#     - Return an int array length 3 containing the first 3 digits of pi, 
+#       {3, 1, 4}.
 #************************************************************************************
+
+def make_pi():
+    return [3,1,4]
