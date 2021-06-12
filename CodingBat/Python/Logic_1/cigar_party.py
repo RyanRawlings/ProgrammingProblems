@@ -1,5 +1,5 @@
 # **********************************************************************************
-#   Title: List-1 > cigar_party
+#   Title: Logic-1 > cigar_party
 #   URL: https://codingbat.com/prob/p195669
 #   Date: 12/06/2021
 #   Description: 
