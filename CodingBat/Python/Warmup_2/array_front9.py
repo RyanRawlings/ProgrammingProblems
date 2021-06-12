@@ -1,19 +1,21 @@
 # **********************************************************************************
-#   Title: Warmup-2 > array_front9
-#   URL: https://codingbat.com/prob/p110166
+#   Title: Warmup-2 > array_123
+#   URL: https://codingbat.com/prob/p193604
 #   Date: 12/06/2021
 #   Description: 
-#     - Given an array of ints, return True if one of the first 4 elements 
-#       in the array is a 9. The array length may be less than 4.
+#     - Given an array of ints, return True if the sequence of 
+#       numbers 1, 2, 3 appears in the array somewhere.
 #************************************************************************************
 
-def array_front9(nums):
-    nine_count = 0
-    for index in range(0, len(nums),1):
-        if nums[index] == 9 and index < 4:
-            nine_count += 1
+def array123(nums):
+    sequence_count = 0
+
+    for index in range(len(nums)-2):
+        sequence = [nums[index], nums[index+1],nums[index+2]]
+        if sequence == [1,2,3]:
+            sequence_count += 1
     
-    return nine_count >= 1
+    return sequence_count >= 1
 
 # Test Case
-print(array_front9([9, 2, 3]))
+# print(array123([1, 1, 2, 1, 2, 3]))
