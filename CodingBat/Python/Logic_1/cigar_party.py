@@ -13,4 +13,5 @@
 def cigar_party(cigars, is_weekend):
     return (is_weekend and cigars >= 40) or (not(is_weekend) and cigars >= 40 and cigars <= 60)
 
+# Test Case
 print(cigar_party(40, True))
