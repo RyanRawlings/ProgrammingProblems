@@ -1,5 +1,5 @@
 # **********************************************************************************
-#   Title: Warmup-2 > first_last6
+#   Title: List-1 > first_last6
 #   URL: https://codingbat.com/prob/p181624
 #   Date: 12/06/2021
 #   Description: 
